@@ -1,0 +1,49 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Exercício 11</title>
+    
+    <link rel="stylesheet" type="text/css" href="p1.css">
+</head>
+<body>
+
+    <div class="h">
+        <h1>Exercício 11</h1>
+    </div>
+
+    <div class="cont">
+        <div class="col">
+            <script lang="JavaScript">
+    
+                var media, n1, n2;
+            
+                alert("Uma escola com cursos em regime semestral, realiza duas avaliações durante o semestre e calcula a média do aluno.");
+    
+                n1 = parseFloat(window.prompt("Quanto o aluno tirou na 1° nota?","0"));
+    
+                document.write("<h4 class='c'>1° nota: " + n1 + "</h4>");
+    
+                n2 = parseFloat(window.prompt("Quanto o aluno tirou na 2° nota?","0"));
+    
+                document.write("<h4 class='c'>2° nota: " + n2 + "</h4>");
+    
+                media = (n1 + 2 * n2)/ 3;
+    
+                document.write("<h4 class='c'>A média do aluno é igual a: " + media + "</h4>");
+    
+                if(media >= 6)
+                {
+                    document.write("<h4 class='c'>APROVADO</h4>");
+                }
+                else
+                {
+                    document.write("<h4 class='c'>REPROVADO</h4>");
+                }
+    
+            </script>
+              </div>
+        </div>
+    
+    
+    </body>
+    </html>

@@ -1,0 +1,68 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Exercício 13</title>
+    
+    <link rel="stylesheet" type="text/css" href="p1.css">
+</head>
+<body>
+
+    <div class="h">
+        <h1>Exercício 13</h1>
+    </div>
+
+    <div class="cont">
+        <div class="col">
+            <script lang="JavaScript">
+    
+                var a, b, c, bc, ca, ab;
+    
+              ("Informe o valor dos três lados do triângulo: ");
+                
+                a = parseFloat(window.prompt("Qual o valor do 1° lado?","0"));
+    
+                b = parseFloat(window.prompt("Qual o valor do 2° lado?","0"));
+    
+                c = parseFloat(window.prompt("Qual o valor do 3° lado?","0"));
+    
+                document.write("<h4 class='c'>valor do 1° lado:  " + a + "</h4>");
+    
+                document.write("<h4 class='c'>valor do 2° lado:  " + b + "</h4>");
+    
+                document.write("<h4 class='c'>valor do 3° lado:  " + c + "</h4>");
+    
+                bc = b + c;
+    
+                ca = c + a;
+    
+                ab = a + b;
+    
+                if((a < bc) && (b < ca) && (c < ab))
+                {
+                    if((a == b) && (b == c))
+                    {
+                        document.write("<h4 class='c'>O triângulo é equilátero. </h4>");
+                    }
+                    else
+                    {
+                        if((a != b) && (b != c) && (c != a))
+                        {
+                            document.write("<h4 class='c'>O triângulo é escaleno.</h4>");
+                        }
+                        else
+                        {
+                            document.write("<h4 class='c'>O triângulo é isóceles.</h4>");
+                        }
+                    }
+                }
+                else
+                {
+                    document.write("<h4 class='c'>Não existe um triângulo, verifique os dados.</h4>");
+                }
+            </script>
+              </div>
+        </div>
+    
+    
+    </body>
+    </html>

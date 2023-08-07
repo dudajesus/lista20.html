@@ -1,0 +1,69 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Exercício 9</title>
+    
+    <link rel="stylesheet" type="text/css" href="p1.css">
+</head>
+<body>
+
+    <div class="h">
+        <h1>exercício 9</h1>
+    </div>
+
+    <div class="cont">
+        <div class="col">
+            <script lang="JavaScript">
+    
+                var n1, n2, ma, me;
+            
+                alert("Informe dois números: ");
+    
+                n1 = parseFloat(window.prompt("1° número: ","0"));
+    
+                document.write("<h4 class='c'>1° número: " + n1 + "</h4>");
+    
+                n2 = parseFloat(window.prompt("2° número: ","0"));
+    
+                document.write("<h4 class='c'>2° número: " + n2 + "</h4>");
+    
+    
+                if(n1 > n2)
+                {
+                    ma = n1
+    
+                    me = n2
+    
+                    document.write("<h4 class='c'>O número maior é: " + ma + "</h4>");
+    
+                    document.write("<h4 class='c'>O número menor é: " + me + "</h4>");
+                }
+                else
+                {
+                    if(n1 < n2)
+                    {
+                        me = n1
+    
+                        ma = n2
+    
+                        document.write("<h4 class='c'>O número maior é: " + ma + "</h4>");
+    
+                        document.write("<h4 class='c'>O número menor é: " + me + "</h4>");
+                    }
+                    else
+                    {
+                        if(n1 == n2)
+                        {
+                            document.write("<h4 class='c'>Os números são iguais. </h4>")
+                        }
+                    }
+                }
+    
+                
+            </script>
+              </div>
+        </div>
+    
+    
+    </body>
+    </html>

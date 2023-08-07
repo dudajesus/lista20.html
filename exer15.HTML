@@ -1,0 +1,51 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Exercício 15</title>
+    
+    <link rel="stylesheet" type="text/css" href="p1.css">
+</head>
+<body>
+
+    <div class="h">
+        <h1>Exercício 15</h1>
+    </div>
+
+    <div class="cont">
+        <div class="col">
+            <script lang="JavaScript">
+    
+                var n1, n2;
+    
+                alert("Informe 2 números: ");
+    
+                n1 = parseFloat(window.prompt("Informe o 1° número: ","0"));
+    
+                n2 = parseFloat(window.prompt("Informe o 2° número: ","0"));
+    
+                if(n1 > n2)
+                {
+                    do
+                    {
+                    n2 = parseFloat(window.prompt("Informe um número maior que o 1°: ","0"));
+                    }
+                    while(n1 >= n2)
+    
+                    if(n1 < n2)
+                    {
+                        document.write("<h4 class='c'>Tudo correto!</h4>");
+    
+                        document.write("<h4 class='c'>O 2° número é maior.</h4>");
+                    }
+                }
+                else
+                {
+                    document.write("<h4 class='c'>Tudo correto!</h4>");
+                }
+            </script>
+              </div>
+        </div>
+    
+    
+    </body>
+    </html>
